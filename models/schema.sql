@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS hounders_db;
+USE hounders_db;
+DROP TABLE IF EXISTS dogs;
