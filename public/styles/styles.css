@@ -4,6 +4,7 @@
 
 body {
   background-image: url(../img/bg.png);
+  font-family: 'Raleway', sans-serif;
 }
 
 .no-padding {
@@ -42,22 +43,19 @@ body {
   color: #506FB3;
   background-size: cover;
   background-color: #e6ce96;
-  margin: 70px 0px;
+  margin: 70px 0 150px 0;
   border-radius: 50px;
-  height: 400px;
+  height: 425px;
   padding: 20px 100px;
 }
 
 #aboutUs {
   margin: 15px 0;
   font-size: 50px;
-  font-family: sans-serif;
-  font-weight: lighter;
 }
 
 #aboutUsParagraph {
   color: #506FB3;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   margin-top: 10px;
 }
@@ -115,7 +113,6 @@ form {
   text-align: center;
   margin-top: 75px;
   padding-bottom: 25px;
-  border-bottom: 4px solid #506FB3;
 }
 
 .dog {
@@ -160,7 +157,11 @@ form {
 .sellerButtons {
   display: block;
   padding: 0;
-  margin: 0 34%;
+  margin: 0 33%;
+}
+
+#dogContent {
+  margin-bottom: 150px;
 }
 
 /* =================================
@@ -171,7 +172,6 @@ form {
   text-align: center;
   margin-top: 75px;
   padding-bottom: 25px;
-  border-bottom: 4px solid #506FB3;
 }
 
 .petPageLink {
@@ -180,13 +180,13 @@ form {
   margin: 0 40%;
 }
 
+#availablePets {
+  margin-bottom: 150px;
+}
+
 /* =================================
             Footer
 ================================= */
-
-.clear-fix {
-  height: 600px;
-}
 
 .footer {
   height: 75px;
