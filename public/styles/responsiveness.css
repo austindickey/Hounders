@@ -3,19 +3,31 @@
 ================================= */
 
 @media (max-width: 1024px) {
-    .home-body {height: 450px;}
-    .sellerButtons {margin: 0 31%;}
-    .petPageLink {margin: 0 38%;}
-    #formBody {width: 80%; margin: 25px 10%;}
+    #formBody {width: 80%; margin: 25px 10% 150px 10%;}
     .choose {width: 40%;}
     .dogImg {width: 80%;}
-    .sellerButtons {margin: 0 24%;}
-    .dogImg {width: 80%;}
-    .dog ul {margin-top: 25px;}
-    .sellerButtons {margin: 0 24%;}
-    .petPageLink {margin: 0 34%;}
+    .dog ul {margin: 25px 0 0 25px;}
+    .sellerButtons {margin: 0 30%;}
+    .petPageLink {margin: 0 38%;}
+}
+
+@media (max-width: 768px) {
+    #formBody {width: 100%; margin: 25px 0 150px 0;}
+    .btn-tan {margin: 15px 10px;}
+    .home-body {height: 475px; padding: 40px;}
+    .navbar-brand img {width: 270px;}
+    .sellerButtons {margin: 0; text-align: center}
+    .petPageLink {margin: 0; text-align: center}
 }
 
 @media (max-width: 414px) {
-    #formBody {width: 100%; margin: 25px 0;}
+    .home-body {height: 940px; padding: 30px;}
+    .navbar-brand img {width: 200px;}
+    .dogImg {width: 100%; margin-left: 0;}
+    .dog ul {margin-left: 0;}
+    .dog li {padding: 8px 0; margin-right: 0;}
+}
+
+@media (max-width: 375px) {
+    .home-body {height: 1100px;}
 }
